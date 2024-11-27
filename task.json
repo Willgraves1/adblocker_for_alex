@@ -1,0 +1,23 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+      {
+        "label": "Build AdBlocker",
+        "type": "shell",
+        "command": "cl",
+        "args": [
+          "/EHsc",
+          "adblocker.cpp",
+          "/link",
+          "wpcap.lib",
+          "packet.lib"
+        ],
+        "group": {
+          "kind": "build",
+          "isDefault": true
+        },
+        "problemMatcher": ["$msCompile"],
+        "detail": "Builds the adblocker project."
+      }
+    ]
+  }
