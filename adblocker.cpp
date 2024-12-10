@@ -7,8 +7,8 @@
 
 // Ad domains to block
 std::unordered_set<std::string> blockedDomains = {
-    "ads.example.com",
-    "trackers.example.com",
+    "ads.google.com",
+    "trackers.google.com",
     "doubleclick.net"
 };
 
